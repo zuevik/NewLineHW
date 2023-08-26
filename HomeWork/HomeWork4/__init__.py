@@ -165,19 +165,13 @@ def find_the_most_common_letter_in_text(text):
             count_max = count_of_incomes
             letter_max = alphabet_down[i]
         i += 1
-    print(letter_max, count_max)
+    print(f'Самая часто встречающаяся буква: {letter_max}, {count_max}')
 
 
 
-find_the_most_common_letter_in_text('Hello World, abcd, Artem,GGGGGGGGGGGGGGGGG')
+find_the_most_common_letter_in_text('Hello World, abcd, Artem,GGGGGGGGGGGGGGGGGggggggggggggggggggggggaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
 
 
-
-
-
-find_the_most_common_letter_in_text('Hello worlD')
-
-find_the_most_common_letter_in_text('Hello World!')
 
 
 # Условия
